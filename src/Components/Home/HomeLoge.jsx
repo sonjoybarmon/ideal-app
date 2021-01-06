@@ -28,26 +28,48 @@ const responsive = {
 };
 const HomeLoge = () => {
     return (
-        <div style={{padding : '30px 0'}}>
-            <Carousel 
-                responsive={responsive}
-            >
-                <Card className ='mx-3'>
-                    <Card.Img variant="top" src={logo} className="img-fluid "/>
-                </Card>
-                <Card className ='mx-3' >
-                    <Card.Img variant="top" src={logo1} className="img-fluid"/>
-                </Card>
-                <Card className ='mx-3'>
-                    <Card.Img variant="top" src={logo2} className="img-fluid "/>
-                </Card>
-                <Card className ='mx-3' >
-                    <Card.Img variant="top" src={logo3} className="img-fluid"/>
-                </Card>
-                <Card className ='mx-3'>
-                    <Card.Img variant="top" src={logo4} className="img-fluid"/>
-                </Card>
-            </Carousel>
+        <div style={{ padding : '30px 0'}}>
+            <div className="row" style= {{ padding : '30px 0'}}>
+                <div className="col-md-12">
+                    <div className='d-flex'>
+                        <hr style={{background : '#A8A8A8' ,width : '35%'}}/>
+                        <h3 style={{fontWeight : 'bold'}}>Companies We Deal</h3> 
+                        <hr style={{background : '#A8A8A8' ,width : '35%'}}/>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div style={{padding : '30px 0'}}>
+                <Carousel 
+                    responsive={responsive}
+                >
+                    <Card className ='mx-3'>
+                        <Card.Img variant="top" src={logo} className="img-fluid "/>
+                    </Card>
+                    <Card className ='mx-3' >
+                        <Card.Img variant="top" src={logo1} className="img-fluid"/>
+                    </Card>
+                    <Card className ='mx-3'>
+                        <Card.Img variant="top" src={logo2} className="img-fluid "/>
+                    </Card>
+                    <Card className ='mx-3' >
+                        <Card.Img variant="top" src={logo3} className="img-fluid"/>
+                    </Card>
+                    <Card className ='mx-3'>
+                        <Card.Img variant="top" src={logo4} className="img-fluid"/>
+                    </Card>
+                    <Card className ='mx-3'>
+                        <Card.Img variant="top" src={logo2} className="img-fluid "/>
+                    </Card>
+                    <Card className ='mx-3' >
+                        <Card.Img variant="top" src={logo3} className="img-fluid"/>
+                    </Card>
+                    <Card className ='mx-3'>
+                        <Card.Img variant="top" src={logo4} className="img-fluid"/>
+                    </Card>
+                </Carousel>
+            </div>
         </div>
     );
 };
