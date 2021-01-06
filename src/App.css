@@ -16,3 +16,9 @@
   text-decoration: none;
   
 }
+.iconContent{
+  background: linear-gradient( #f3591cce ,  #f3591ce1), url('./Images/banner1.png');
+}
+.sliderImg{
+  margin : 50px
+}
